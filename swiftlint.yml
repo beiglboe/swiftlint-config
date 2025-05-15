@@ -1,0 +1,12 @@
+disabled_rules:
+  - line_length
+  - file_length
+  - trailing_whitespace
+  - trailing_comma
+  - todo
+  - comma #?
+opt_in_rules:
+  - unhandled_throwing_task
+excluded:
+  - Tests/
+  - .build/
